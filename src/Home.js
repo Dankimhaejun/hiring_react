@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Home({history}) {
-    console.log(history)
     return (
         <div>
             <div>투두들어가는버튼

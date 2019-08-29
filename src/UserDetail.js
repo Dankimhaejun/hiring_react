@@ -1,7 +1,7 @@
 import React from 'react';
 import fakeData from './getUserData';
 
-function UserDetail({ match, history }) {
+function UserDetail({ match, history, props }) {
 	const user = fakeData.filter((user) => {
 		return String(user.id) === match.params.id;
     });

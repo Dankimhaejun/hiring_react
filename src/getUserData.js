@@ -1,8 +1,3 @@
-// const data = fetch('https://koreanjson.com/users/')
-// 	.then((response) => response.json())
-// 	.then((json) => console.log(json))
-// 	.catch((error) => console.log(error));
-
 const fakeData = [
 	{
 		id: 1,
@@ -154,5 +149,5 @@ const fakeData = [
 		createdAt: '2019-02-24T16:17:47.000Z',
 		updatedAt: '2019-02-24T16:17:47.000Z'
 	}
-]
+];
 module.exports = fakeData;
